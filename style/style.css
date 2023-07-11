@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* <!-- main banner start --> */
+.header {
+    height: 100vh;
+    background-color: rgba(229, 84, 115, 0.10);
+    padding-right: 140px;
+    gap: 97px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.head-title {
+    color: #272727;
+    font-size: 45px;
+    font-weight: 800;
+    padding: 5px;
+}
+
+.img-header {
+    width: 435px;
+
+    /* height: 400px; */
+}
+
+.head-des {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 5px 10px 0;
+}
+
+.btn {
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    color: white;
+
+}
+
+
+.text-part {
+    
+    padding-left: 150px;
+    padding-top: 100px;
+}
+
+.head-img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: end;
+    align-items: end;
+}
+/* <!-- main banner end -->  */
+
+.center {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 5px;
+
+}
+/* <!-- flower-container start  -->  */
+.flower-des {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+    font-weight: 400;
+}
+
+.flower-type {
+    /* display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    width: 80%; */
+    width: 85%;
+    margin: auto;
+}
+.flower-type1 {
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    /* width: 80%; */
+}
+
+.flower-link {
+    text-align: center;
+    padding-top: 35px;
+    font-size: 20px;
+    color: black;
+    /* margin-bottom: 200px; */
+
+}
+
+.flower-card {
+    width: 300px;
+    height: 461px;
+    /* background-color: blue; */
+    box-shadow: 4px 4px 10px gray;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    background-color: pink;
+    padding: 10px 10px 0px 10px;
+    /* margin-bottom: 150px; */
+}
+
+.f-img {
+    width: 100%;
+    padding-top: 47px;
+    /* padding-bottom: 10px; */
+}
+
+.flower-title {
+    padding-top: 100px;
+}
+
+.flower-des {
+    padding-bottom: 50px;
+    width: 50%;
+    margin: auto;
+}
+
+.flower-box {
+    /* margin-top: 140px; */
+    margin: 140px auto;
+    width: 75%;
+    background-color: #2727270D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 65px 60px;
+}
+
+
+.box-title {
+    padding-top: 15px;
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.box1 {
+    text-align: center;
+}
+/* <!-- flower-container end --> */
+
+
+/* <!-- hot-deals-start  -->  */
+.hot-container {
+    display: flex;
+    /* height: 60%; */
+    justify-content: space-around;
+    background: rgba(229, 84, 115, 0.05);
+    padding:  60px 140px;
+}
+.hot-text{
+    text-align: center;
+    /* padding-top: 170px; */
+    width: 50%;
+    margin: auto 0px;
+}
+/* .hot-img{ 
+    
+} */
+.hot-flower-pic{
+    width: 300px;
+}
+.hot-title{
+    font-size: 30px;
+    font-weight: 800;
+    color: #272727;
+    padding-bottom: 15px;
+}
+.pink{
+    color: #E55473 ;
+}
+.hot-des{
+    font-size: 16px;
+    padding: 0 0 15px 0 ;
+    color: rgba(39, 39, 39, 0.60);
+}
+
+/* <!-- hot-deals-end  -->  */
+/* review section satrt  */
+.r-im{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 10px;
+}
+.review-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 131px;
+    gap: 15px;
+}
+.review-card{
+    text-align: center;
+    padding: 30px;
+    box-shadow: 4px 7px 10px rgb(70, 69, 69);
+    border-radius: 20px;
+}
+.title-name{
+    padding: 10px;
+}
+.icons{
+    margin: 10px;
+}
+.review-des{
+    font-family: 'Freehand', 'cursive';
+font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+font-size: 25px;
+}
+.pad{
+    padding-top: 10px;
+}
+/* review section satrt  */
+
+
+/* <!-- socail media section start  --> */
+.insta-pics{
+    display: flex;
+    /* width: 100vw; */
+    justify-content: center;
+    gap: 5px;
+    padding: 0 131px;
+
+}
+
+
+.insta-img{
+    /* width: 300px; */
+    width: 100%;
+    
+}
+.instagram{
+    /* width: 100vw; */
+    padding-bottom: 100px;
+}
+.banner-img{
+    
+    width: 80%;
+    margin:  auto;
+    background-image: url("../Rectangle 9.png");
+    /* height: 400px; */
+}
+.form{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.email{
+    padding: 20px 100px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+}
+/* <!-- socail media section end  --> */
+.image-banner{
+padding-bottom: 100px;
+}
+.footer-title{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    margin: 20px;
+}
+footer{
+    padding: 100px;
+    height: 250px;
+    background-color: #111010;
+}
+.white{
+    color: white;
+}
+.fcenter{
+   text-align: center;
+}
